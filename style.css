@@ -77,7 +77,7 @@ a{
   border-style:dashed; 
 }
 #scissors{
-  font-size: 100px;
+  font-size: 90px;
 }
 
 #player-display{
@@ -91,7 +91,7 @@ a{
   border-style:dashed; 
 }
 #rock{
-  font-size: 100px;
+  font-size: 90px;
 }
 .results-display{
   display: flex;
@@ -107,7 +107,7 @@ a{
   font-size: 18px;
 }
 #paper{
-  font-size: 100px;
+  font-size: 90px;
 }
 .choices{
   display: flex;
@@ -132,9 +132,7 @@ button{
   padding: 10px;
   
 }
-.rock-emoji, .paper-emoji, .scissors-emoji{
-  font-size: 3.3rem
-}
+
 @media screen and (max-width:23.8em) {
   .container4{
     display: flex;
@@ -143,3 +141,13 @@ button{
   }
   
 }
+@media screen and (max-width:47.8em) {
+  #rock, #paper, #scissors{
+    font-size: 70px;
+  }
+}  
+@media screen and (max-width:27.8em) {
+  #rock, #paper, #scissors{
+    font-size: 50px;
+  }
+}  
