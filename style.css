@@ -41,7 +41,7 @@ a{
     align-items: center;
   }
 }  
-  @media screen and (max-width:55.5em) {
+  @media screen and (max-width:45.5em) {
   .content{
 
     max-width:none;
@@ -141,7 +141,7 @@ button{
   }
   
 }
-@media screen and (max-width:47.8em) {
+@media screen and (max-width:45.8em) {
   #rock, #paper, #scissors{
     font-size: 70px;
   }
@@ -151,3 +151,12 @@ button{
     font-size: 50px;
   }
 }  
+@media screen and (max-width:23.8em) {
+  .options-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+}
