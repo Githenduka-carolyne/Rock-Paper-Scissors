@@ -146,12 +146,15 @@ button{
     font-size: 70px;
   }
 }  
-@media screen and (max-width:27.8em) {
+
+@media screen and (max-width:25.8em) {
+
   #rock, #paper, #scissors{
     font-size: 50px;
   }
-}  
-@media screen and (max-width:23.8em) {
+  .button-description{
+    font-size: 12px;
+  }
   .options-button{
     display: flex;
     flex-direction: column;
@@ -159,4 +162,28 @@ button{
     gap: 10px;
   }
   
+}
+@media screen and (max-width:20.8em) {
+
+  #rock, #paper, #scissors{
+    font-size: 40px;
+  }
+  #result-details{
+    font-size: 12px;
+  }
+  .button-description{
+    font-size: 10px;
+  }
+}
+@media screen and (max-width:18.8em) {
+
+  #rock, #paper, #scissors{
+    font-size: 30px;
+  }
+  #result-details{
+    font-size: 8px;
+  }
+  .button-description{
+    font-size: 9px;
+  }
 }
