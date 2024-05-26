@@ -18,7 +18,7 @@ function playgame(playerchoice) {
     
     
 
-    console.log(computerchoice)
+    
     // If the computer chooses Rock and the player chooses Scissors, the computer wins and scores 1 point.
     // If the computer chooses Scissors and the player chooses Paper, the computer wins and scores 1 point.
     // If the computer chooses Paper and the player chooses Rock, the computer wins and scores 1 point.    
