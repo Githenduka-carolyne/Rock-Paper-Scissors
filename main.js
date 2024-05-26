@@ -73,7 +73,18 @@ function playgame(playerchoice) {
 
 
     //replacing emoji with what the player chooses 
-   
+    let playeremoji = ""
+
+    if (playerchoice === "rock") {
+        playeremoji=("✊" )  
+    }
+    else if(playerchoice === "paper"){
+        playeremoji=("✋")        
+        }
+    else{
+         playeremoji = ("✌️")
+    }
+    emojireplacer2.textContent = playeremoji
   
 } 
 
