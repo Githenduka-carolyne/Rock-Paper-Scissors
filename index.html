@@ -1,65 +1,76 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock-Paper-Scissors</title>
   </head>
   <body>
-      <div class="content">
-        <div class="header">
-          <div class="container">
-            <p> &copy; 2024 <a href="">Githenduka Carolyne</a></p>
-            <div class="score-display">computer
-              <div id ="computerscores-display">0</div>
-            </div>
-            <div class="score-display">player
-              <div id ="playerscores-display">0</div>
-            </div>
+    <div class="content">
+      <div class="header">
+        <div class="container">
+          <p>&copy; 2024 <a href="">Githenduka Carolyne</a></p>
+          <div class="score-display">
+            computer
+            <div id="computerscores-display">0</div>
           </div>
-        </div>  
-        
-        <div id ="computer-display">
-          <div class="container2-header">
-            <p>Computer</p>
-          </div>
-          <div class="emojiholder"> 
-            <div id="emojitype">
-              <div id="scissors">✌️</div>
-            </div>
+          <div class="score-display">
+            player
+            <div id="playerscores-display">0</div>
           </div>
         </div>
+      </div>
 
-        <div class ="results-display">
-          <span id="result-details">DRAW</span>
+      <div id="computer-display">
+        <div class="container2-header">
+          <p>Computer</p>
         </div>
+        <div class="emojiholder">
+          <div id="emojitype">
+            <div id="scissors">✌️</div>
+          </div>
+        </div>
+      </div>
 
-        <div id ="player-display">
-          <div class="container3-header">
-            <p>Player</p>
-          </div>
-          <div class="emojiholder"> 
-            <div id="emojitype">
-              <div id="rock">✊</div>
-            </div>  
+      <div class="results-display">
+        <span id="result-details">DRAW</span>
+      </div>
+
+      <div id="player-display">
+        <div class="container3-header">
+          <p>Player</p>
+        </div>
+        <div class="emojiholder">
+          <div id="emojitype">
+            <div id="rock">✊</div>
           </div>
         </div>
-        
-        <div class ="choices">
-          <div class="options-button">
-            <button onclick="playgame('rock')"><div id="rock">✊</div><br>
-              <span class="button-description">Rock</span></button>
-            <button onclick="playgame('paper')"><div id="paper">✋</div><br>
-              <span class="button-description">Paper</span></button>
-            <button onclick="playgame('scissors')"><div id="scissors">✌️</div><br>
-              <span class="button-description">scissors</span></button>
-          </div>    
-        </div>  
-      </div>    
-    <script src="main.js"></script> 
+      </div>
+
+      <div class="choices">
+        <div class="options-button">
+          <button onclick="playgame('rock')">
+            <div id="rock">✊</div>
+            <br />
+            <span class="button-description">Rock</span>
+          </button>
+          <button onclick="playgame('paper')">
+            <div id="paper">✋</div>
+            <br />
+            <span class="button-description">Paper</span>
+          </button>
+          <button onclick="playgame('scissors')">
+            <div id="scissors">✌️</div>
+            <br />
+            <span class="button-description">scissors</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
     <script type="module" src="/main.js"></script>
-
   </body>
 </html>
